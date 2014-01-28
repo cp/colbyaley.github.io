@@ -15,6 +15,9 @@ body {
   line-height: 1.5em;
   font-size: 24px;
 }
+p.lighter {
+  color: #888;
+}
 
 #more {
   border-bottom: 2px solid #888;
