@@ -1,5 +1,5 @@
 html {
-  border-top: 1px solid #333;
+  border-top: 2px solid #2185db;
 }
 
 body {
@@ -52,7 +52,7 @@ a {
 }
 
 a:hover {
-  color: #888888;
+  color: #2185db;
 }
 
 #follow_links {
