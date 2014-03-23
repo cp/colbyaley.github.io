@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="//use.typekit.net/juq8jli.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <title><%= current_page.data.title || "Colby Aley" %></title>
+    <%= stylesheet_link_tag 'application' %>
+    <%= javascript_include_tag 'application' %>
+  </head>
+  <h1 id="name">Hi, I'm Colby.</h1>
+  <%= yield %>
+  <div id="follow_links">
+    <%= link_to 'email', 'mailto:colby@aley.me' %> &bull;
+    <a href='http://pgp.mit.edu/pks/lookup?op=get&search=0x912F16C05F574B51'>pgp</a> &bull;
+    <%= link_to 'twitter', 'https://twitter.com/aley' %> &bull;
+    <%= link_to 'github', 'https://github.com/ColbyAley' %> &bull;
+    <%= link_to 'blog', 'http://aley.me' %>
+  </div>
+</html>
