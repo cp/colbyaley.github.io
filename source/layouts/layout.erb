@@ -10,13 +10,28 @@
     <%= stylesheet_link_tag 'application' %>
     <%= javascript_include_tag 'application' %>
   </head>
-  <h1 id="name">Hi, I'm Colby.</h1>
-  <%= yield %>
-  <div id="follow_links">
-    <%= link_to 'email', 'mailto:colby@aley.me' %> &bull;
-    <a href='http://pgp.mit.edu/pks/lookup?op=get&search=0x912F16C05F574B51'>pgp</a> &bull;
-    <%= link_to 'twitter', 'https://twitter.com/aley' %> &bull;
-    <%= link_to 'github', 'https://github.com/ColbyAley' %> &bull;
-    <%= link_to 'blog', 'http://aley.me' %>
-  </div>
+  <body>
+    <h1 id="name">Hi, I'm Colby.</h1>
+    <%= yield %>
+    <div id="follow_links">
+      <%= link_to 'email', 'mailto:colby@aley.me' %> &bull;
+      <a href='http://pgp.mit.edu/pks/lookup?op=get&search=0x912F16C05F574B51'>pgp</a> &bull;
+      <%= link_to 'twitter', 'https://twitter.com/aley' %> &bull;
+      <%= link_to 'github', 'https://github.com/ColbyAley' %> &bull;
+      <%= link_to 'blog', 'http://aley.me' %>
+    </div>
+    <script type="text/javascript">
+      var _gauges = _gauges || [];
+      (function() {
+        var t   = document.createElement('script');
+        t.type  = 'text/javascript';
+        t.async = true;
+        t.id    = 'gauges-tracker';
+        t.setAttribute('data-site-id', '513c5d9cf5a1f5415600006f');
+        t.src = '//secure.gaug.es/track.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(t, s);
+      })();
+    </script>
+  </body>
 </html>
